@@ -37,6 +37,7 @@
 			float       beginingDistance;
 			float       maxDistance;
 			float       stretchInY;
+			float       iTime;
 
             v2f vert (appdata v)
             {
@@ -46,7 +47,7 @@
 				       vVertex = mul(_WorldToOrigin, vVertex);
 
 				float  theta   = smoothstep(beginingDistance, maxDistance, max(0., vVertex.z));
-				       theta  *= -(sin(_Time.x*2.) + 1.) / 2.;
+				       theta  *= -iTime;
 				       theta  *= PI;
 
 			    float  yMultiplyer = vVertex.z*-theta* stretchInY;
