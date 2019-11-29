@@ -18,7 +18,6 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         effectTimer += Time.deltaTime* animationSpeed * (isBending ? 1f : 0f);
         unitTime     = bendControlelr.Evaluate(effectTimer);
         Shader.SetGlobalMatrix("_WorldToOrigin"  , origin.worldToLocalMatrix);
@@ -27,9 +26,6 @@ public class Controller : MonoBehaviour
         Shader.SetGlobalFloat ("maxDistance"     , maxDistance);
         Shader.SetGlobalFloat ("stretchInY"      , stretchInY? 1: 0);
         Shader.SetGlobalFloat ("iTime"           , unitTime);
-
-
-              
     }
 
     public void StartEffect()
