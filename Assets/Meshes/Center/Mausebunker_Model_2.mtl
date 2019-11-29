@@ -1,0 +1,44 @@
+# 
+# Wavefront material file
+# Created in RealityCapture
+# Engine version v1.0.3.9317
+# 
+
+newmtl Mausebunker_Model_2_Material
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+
+newmtl Mausebunker_Model_2_Material_u1_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Mausebunker_Model_2_u1_v1.png
+
+newmtl Mausebunker_Model_2_Material_u2_v1
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Mausebunker_Model_2_u2_v1.png
+
+newmtl Mausebunker_Model_2_Material_u1_v2
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Mausebunker_Model_2_u1_v2.png
+
+newmtl Mausebunker_Model_2_Material_u2_v2
+Ka 1 1 1
+Kd 1 1 1
+d 1
+Ns 0
+illum 1
+map_Kd Mausebunker_Model_2_u2_v2.png
