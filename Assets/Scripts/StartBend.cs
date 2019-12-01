@@ -6,11 +6,12 @@ public class StartBend : MonoBehaviour
 {
     public AudioSource music;
     public AudioSource binaural;
+    public AudioSource playButtonSound;
     public Renderer playRenderer;
+    public Renderer pauseRenderer;
     public Controller startBend;
 
     private bool BUUMactive = false;
-  
 
     private void OnTriggerEnter(Collider collider)
     {
@@ -18,16 +19,16 @@ public class StartBend : MonoBehaviour
     
         if (collider.gameObject.name == "LeftHandCollider")
         {
-            
-           // OnTriggerEnter.SetActive(true);
+
             BUUMactive = true;
-            music.Play();
+            playButtonSound.Play();    //add delay before play music
+           // music.Play();
             startBend.enabled = true;
             startBend.StartEffect();
             Debug.Log("starting bend");
 
             playRenderer.enabled = false;
-            Debug.Log("BUUMactive is true");
+            pauseRenderer.enabled = true;
 
         }
    
@@ -38,6 +39,8 @@ public class StartBend : MonoBehaviour
     void Start()
     {
         binaural.Play();
+        pauseRenderer.enabled = false;
+
     }
 
     void Update()

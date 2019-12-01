@@ -10,6 +10,7 @@ public class StopBend : MonoBehaviour
     public AudioSource binaural;
     public Controller startBend;
     public Renderer pauseRenderer;
+    public AudioSource pauseButtonSound;
 
 
     private void OnTriggerEnter(Collider collider)
@@ -22,6 +23,7 @@ public class StopBend : MonoBehaviour
             startBend.enabled = true;
             startBend.PauseEffect();
             Debug.Log("Pausing bend");
+            pauseButtonSound.Play();
 
             music.Stop();
             binaural.Play();
