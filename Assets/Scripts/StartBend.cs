@@ -6,11 +6,10 @@ public class StartBend : MonoBehaviour
 {
     public AudioSource music;
     public AudioSource binaural;
-    public GameObject itself;
     public Renderer playRenderer;
-   
-    private bool BUUMactive = false;
     public Controller startBend;
+
+    private bool BUUMactive = false;
   
 
     private void OnTriggerEnter(Collider collider)
