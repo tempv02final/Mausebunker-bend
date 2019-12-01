@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.mausebunkerbend.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\Projects\\UnityProjekt\\Mausebunker Bend\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\Unity\\bunker-bend\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Mausebunker Bend [Testing]"
