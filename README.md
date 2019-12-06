@@ -28,3 +28,6 @@ SteamVR
 - Music: Azad and Nerses Balabanian
 
 - Binaural audio: Azad Balabanian, Violet Cortez, Vladimir Ständer
+
+- additional textures from Rob Tuytel from HDRI Haven
+https://texturehaven.com/tex/?t=bark_brown_02
