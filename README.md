@@ -1,4 +1,4 @@
-# bunker-bend
+# Mausebunker-bend
 A short VR "Inception-like" VR experience 
 
 
@@ -10,7 +10,7 @@ A great experience for VR newbies to showcase the power of virtual reality, bina
 ## Features
 - world bending and cinematic music to establish an awe-spiring atmosphere.  
 
-- a detailed photogrammetry scan of the famous Mäusebunker , which is at risk of being demolished. 
+- a detailed photogrammetry scan of the Mäusebunker, a brutalist building in Berlin - http://www.guiding-architects.net/brutalism-berlin-building-cult/
 
 - binaural audio capture on site for extra immersion 
 
